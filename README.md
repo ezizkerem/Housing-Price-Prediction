@@ -1,7 +1,7 @@
 
 # Predicting Housing Prices
 
-In this repository, the goal is to model housing prices in Ames, Iowa with linear regression. Which enables us to understand the main determining factors in the prices and predicting prices with the features. 
+The goal of this project is to model the housing prices with linear regression and have in-depth understanding in the determining factors in sale prices.
 
 <details>
     <summary><h2>Table of Content</h2></summary>
@@ -13,17 +13,10 @@ In this repository, the goal is to model housing prices in Ames, Iowa with linea
         <li><a href="#tools">Tool & Libraries</a></li>
     </ol>
 </details>
- 
-<style>
-    details summary > * { 
-    display: inline;
-    }
-</style>
-
 
 ## Data
 
-The [dataset](./datasets) containes assessed values for individual residential properties sold in Ames, IA from 2006 to 2010. The trainig data contains 2051 observations and 81 variables. Click [here](./datasets) for more details.
+The [dataset](./datasets) contains assessed values for individual residential properties sold in Ames, IA from 2006 to 2010. The training data contains 2051 observations and 81 variables. Click [here](./datasets) for more details.
 
 |   |  Id |       PID | MS SubClass | ... | Sale Type | SalePrice |
 |--:|----:|----------:|------------:|----:|----------:|----------:|
@@ -35,7 +28,7 @@ The [dataset](./datasets) containes assessed values for individual residential p
 
 ## Model
 
-The linear regression model is fitted with lasso regularrization, see table below for the model performance:
+The linear regression model is fitted with lasso regularization, see table below for the model performance:
 
 |                        | Cross Validation Score |
 |------------------------|------------------------|
@@ -55,7 +48,7 @@ By studying the coefficients of the model, we can inference the most expansive n
 ## Repository Structure
 
 1. [code](./code/)
-    > Main code and jupyter notebooks, with detailed insutructions and easy to follow along.
+    > Main code and jupyter notebooks, with detailed instructions and easy to follow along.
 
 2. [datasets](./datasets/)
     > The datasets used for this project.
@@ -70,12 +63,12 @@ By studying the coefficients of the model, we can inference the most expansive n
     > Slides for the project.
 
 6. [README.md](README.md)
-    > The document you are currently reading.
+    > The document you are currently viewing.
 ---
 
-<center><h4 id="tools">Tools & Libraries</center>
-
 <div align="center">
+
+<h4 id="tools">Tools & Libraries</h4>
 
 ![Python](https://img.shields.io/badge/python-3670A0?style=flat&logo=python&logoColor=ffdd54)
 ![Jupyter Notebook](https://img.shields.io/badge/jupyter-%23FA0F00.svg?style=flat&logo=jupyter&logoColor=white)
